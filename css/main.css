@@ -1,0 +1,424 @@
+/* -------------pic------------- */
+#pic{
+	width:100%;
+	height:1.8rem;
+	position:relative;
+	overflow: hidden;
+}
+#main_a{
+	width:20%;
+	height:0.3rem;
+	font-size: 0.13rem;
+	text-align: center;
+	line-height: 0.3rem;
+	position: absolute;
+    top: 0.18rem;
+    left: 0.07rem;
+    color: #fff;
+    z-index: 200;
+    background: rgba(0,0,0,.2);
+    border-radius: 0.15rem;
+}
+#pic_u{
+	width:31.5rem;
+	height:100%;
+	position:absolute;
+}
+#pic_u li{
+	width:3.5rem;
+	height:100%;
+}
+#pic_u li img{
+	width:91.5%;
+}
+#pic_d{
+	width:0.88rem;
+	height:0.08rem;
+	position:absolute;
+	bottom:0.1rem;
+	right:0.1rem;
+}
+#pic_d li{
+	width:0.05rem;
+	height:0.05rem;
+	border:0.01rem solid #fff;
+	margin:0 0.02rem;
+	border-radius: 50%;
+}
+/* -------------nav------------- */
+nav{
+	width:100%;
+	height:0.5rem;
+	border-bottom: 1px solid #ededed;
+	background: #fff;
+	position:relative;
+}
+nav li{
+	width:50%;
+	height:100%;
+	font-size: 0.14rem;
+	text-align: center;
+	line-height: 0.5rem;
+}
+nav span{
+	width:15%;
+	height:0.02rem;
+	background: #ff5f16;
+	position:absolute;
+	bottom:-0.01rem;
+	left:0.55rem;
+	transition: 0.5s;
+}
+/* -----------------section----------------- */
+section,aside{
+	width:100%;
+	min-height: 1.04rem;
+	overflow: hidden;
+	position:relative;
+}
+section dl,aside dl{
+	width:100%;
+	height:1.1rem;
+	border-bottom: 1px solid #ededed;
+	box-sizing: border-box;
+	padding:0.1rem 0.15rem;
+}
+section dl dt,aside dl dt{
+	width:0.66rem;
+}
+section dl dt img,aside dl dt img{
+	width:0.66rem;
+}
+section dl dd,aside dl dd{
+	width:1.5rem;
+	margin:0 0.1rem;
+}
+.sec_h,.sec_p,.sec_o{
+	width:100%;
+	height:0.22rem;
+}
+.sec_h{
+	margin-bottom: 0.05rem;
+}
+.sec_h h3{
+	font-size: 0.15rem;
+}
+.sec_h span{
+	padding:0 0.02rem;
+	font-size: 0.10rem;
+	background: #d2d6dc;
+	color:#fff;
+	border-radius: 0.03rem;
+	margin-left: 0.05rem;
+	margin-top:0.03rem;
+}
+.sec_p p{
+	font-size: 0.13rem;
+	color:#797d82;
+	float: left;
+}
+.sec_p span{
+	font-size: 0.14rem;
+	color:#ffb232;
+	margin-left: 0.05rem;
+}
+.sec_o p,.sec_m p{
+	width:100%;
+	height:0.18rem;
+	font-size: 0.13rem;
+	color:#797d82;
+	overflow: hidden;
+	white-space: pre;
+	text-overflow: ellipsis;
+}
+.sec_b{	
+	float: left;
+	margin-top:0.3rem;
+	height:0.25rem;
+	width:0.5rem;
+	border:0.01rem solid #ff5f16;
+	border-radius: 0.03rem;
+}
+.sec_b a{
+	width:100%;
+	height:100%;
+	font-size: 0.13rem;
+	color:#ff5f16;
+	text-align: center;
+	line-height: 0.25rem;
+}
+/* bottom */
+.bottom{
+	height:0.6rem;
+	width:100%;
+	background: #D2D6DC;
+}
+/* ----------------------header-------------------- */
+.header{
+	width:100%;
+	height:0.44rem;
+	background: #fff;
+	position: fixed;
+    top: 0;
+    left: 0;
+	z-index: 100;
+}
+.header a{
+	font-size: 0.16rem;
+	width:20%;
+	height:100%;
+	text-align: center;
+	line-height: 0.44rem;
+	float: left;
+}
+.header span{
+	width:80%;
+	height:100%;
+	font-size: 0.17rem;
+	line-height: 0.44rem;
+	text-indent: 0.6rem;
+	float: left;
+}
+.inp{
+	width:100%;
+	height:0.49rem;
+	background: #f4f4f4;
+	position: fixed;
+	top: 0.44rem;
+	left: 0;
+	z-index: 100;
+}
+.inp input{
+	width:80%;
+	height:60%;
+	background: #fff;
+	border-radius: 0.03rem;
+	font-size: 0.13rem;
+	text-indent: 0.1rem;
+	position:absolute;
+	top:20%;
+	left:10%;
+}
+.oul{
+	width:94%;
+	overflow-y: scroll;
+	box-sizing: border-box;
+	padding-top:0.95rem;
+}
+.oul .oul_d{
+	width:100%;
+	box-sizing: border-box;
+	padding:0.15rem 0 0 0.15rem;
+}
+.oul .oul_d p{
+	width:100%;
+	height:0.2rem;
+	font-size: 0.13rem;
+    color: #797d82;
+	float: left;
+}
+.oul .oul_d span{
+	width:0.8rem;
+	height: 0.3rem;
+    background-color: #f4f4f4;
+    line-height: 0.3rem;
+    border-radius: 0.03rem;
+	text-align: center;
+    margin: 0.1rem 0.05rem;
+    font-size: 0.14rem;
+    color: #191a1b;
+}
+.oul li{
+	width:100%;
+}
+.oul li p{
+	width:100%;
+	background-color: #f4f4f4;
+    color: #797d82;
+	box-sizing: border-box;
+    padding-left: 0.15rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+	font-size: 0.14rem;
+	float: left;
+}
+.oul li span{
+	width:33%;
+	height:0.48rem;
+	overflow: hidden;
+	border-bottom:0.01rem solid #f4f4f4;
+	font-size: 0.14rem;
+	text-align: center;
+	line-height: 0.48rem;
+}
+.abc{
+	width:6%;	
+	position:fixed;
+	top:1.4rem;
+	right:0;
+	font-size: 0.12rem;
+}
+.abc span{
+	width:100%;
+	text-align: center;
+}
+/* ---------------------yingyuan------------------------ */
+.header h3{
+	width:100%;
+	height:100%;
+	text-align: center;
+	line-height: 0.44rem;
+	font-size: 0.17rem;
+	border-bottom:0.01rem solid #f4f4f4;
+}
+.nav{
+	width:100%;
+	height:0.5rem;
+	border-bottom:0.01rem solid #f4f4f4;
+	position: fixed;
+	top:0.45rem;
+	left:0;
+	z-index: 100;
+	background: #fff;
+}
+.nav li{
+	width:50%;
+	height:100%;
+	text-align: center;
+	line-height: 0.5rem;
+	font-size: 0.13rem;
+}
+.section{
+	width:100%;
+	box-sizing: border-box;
+	padding-top:0.95rem;
+}
+.section dl{
+	width:100%;
+	height:0.75rem;
+	border-bottom:0.01rem solid #f4f4f4;
+	box-sizing: border-box;
+	padding:0.15rem;
+}
+.section dl dt{
+	width:70%;
+	height:0.45rem;
+}
+.section dl dt h3{
+	width:100%;
+	height:0.2rem;
+	font-size: 0.15rem;
+	float: none;
+}
+.section dl dt p{
+	width:100%;
+	height:0.18rem;
+	overflow: hidden;
+	white-space: pre;
+	text-overflow: ellipsis;
+	font-size: 0.12rem;
+	color: #797d82;
+	margin-top:0.06rem;
+}
+.section dl dd{
+	width:25%;
+	height:0.45rem;
+	float: right;
+}
+.section dl dd h3{
+	color: #ff5f16;
+	width:100%;
+	height:0.2rem;
+	font-size: 0.13rem;
+	float: none;
+	text-align: right;
+}
+.section dl dd p{
+	width:100%;
+	height:0.18rem;
+	font-size: 0.12rem;
+	color: #797d82;
+	margin-top:0.06rem;
+	text-align: right;
+}
+/* --------------------mine-------------------- */
+.login{
+	width:100%;
+	height:1.6rem;
+	background: url(../img/bg.6837f67.png) no-repeat center/cover;
+	overflow: hidden;
+}
+.login img{
+	width: 0.63rem;
+    height: 0.63rem;
+    border-radius: 0.35rem;
+    margin:0.7rem 0.2rem 0;
+    border: 2px solid #fff;
+	float: left;
+}
+.login span{
+	font-size: 0.16rem;
+	color:#fff;
+	margin-top:0.9rem;
+}
+.log{
+	width:100%;
+	height:0.8rem;
+	border-bottom:0.01rem solid #f4f4f4;
+}
+.log dl{
+	width:50%;
+	height:100%;
+	float: left;
+}
+.log dl dt{
+	width:0.26rem;
+	height:0.26rem;
+	margin-top:0.15rem;
+	margin-left: 0.67rem;
+}
+.log dl dt img{
+	width:100%;
+	height:100%;
+}
+.log dl dd{
+	width:100%;
+	height:0.2rem;
+	font-size: 0.14rem;
+	color: #797d82;
+	text-align: center;
+	margin-top:0.05rem;
+}
+.may{
+	width:100%;
+	height:1.5rem;
+	box-sizing: border-box;
+	padding:0 0.15rem;
+}
+.may li{
+	width:99%;
+	height:0.5rem;
+	border-bottom:0.01rem solid #f4f4f4;
+}
+.may li img:nth-of-type(1){
+	float: left;
+	width:0.2rem;
+	height:0.2rem;
+	margin-top:0.15rem;
+	margin-left: 0.05rem;
+}
+.may li span{
+	font-size: 0.15rem;
+	line-height: 0.5rem;
+	margin-left: 0.2rem;
+}
+.may li img:nth-of-type(2){
+	float: right;
+	width:0.1rem;
+	height:0.1rem;
+	margin-top:0.2rem;
+}
+
+
+
+
